@@ -23,7 +23,7 @@ This project is done by **2024CS10410**.
 ## Syntax for Valid Commands:
 
 ### 1. `ADD_USER <username>`
--Adds a new user to the network, initially with no friends and no posts.
+- Adds a new user to the network, initially with no friends and no posts.
 
 ### 2. `ADD_FRIEND <username1> <username2>`
 -  Establishes a bidirectional friendship between two existing
@@ -38,7 +38,7 @@ This project is done by **2024CS10410**.
  friendships between two usernames. If no path exists, reports-1.
 
 ### 5. ` ADD_POST <username> "<post content>"`
--Add a post whose content is the post_content string, to the posts created by the specified user
+- Add a post whose content is the post_content string, to the posts created by the specified user
 
 ### 6. ` OUTPUT_POSTS <username> <N>`
 -  Output the most recent N posts of the user, in reverse chronological
@@ -58,14 +58,15 @@ This project is done by **2024CS10410**.
 ## Important Information:
 1. **username Constraints**:
    - The username cannot be empty and must not contain spaces. If spaces are present, the program will take whatever is given before the first space as the username.
-   -usernames are case insensitive.
+   - usernames are case insensitive.
    
 2. **Post contents**:
-   -Post Content can contain spaces and can be empty as well and are case sensitive .
+   - Post Content can contain spaces and can be empty as well and are case sensitive .
 
 3. **Exiting the Program**:
    - To exit the program, type:  
      `exit` (in lowercase).
+
 
 
 
